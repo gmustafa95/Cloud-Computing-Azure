@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyCloudProject.Common\MyCloudProject.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AkkaSb.Net" Version="1.0.1-alpha" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.5.0-preview.4" />
+    <PackageReference Include="Microsoft.Azure.Storage.Blob" Version="11.1.7" />
+    <PackageReference Include="NeoCortexApi" Version="1.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DistributedComputeLib">
+      <HintPath>..\..\..\..\..\..\Desktop\Tasks\Cloud\Project\CloudProj\NeoCortexApi\bin\Debug\netstandard2.0\DistributedComputeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSocketNeuroVisualizer">
+      <HintPath>..\..\..\..\..\..\Desktop\Tasks\Cloud\Project\CloudProj\WebSocketNeuroVisualizer\bin\Debug\netstandard2.0\WebSocketNeuroVisualizer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Update="ProcessingData\CloudComputingCommands.rtf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+
+</Project>

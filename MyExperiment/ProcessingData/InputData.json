@@ -1,0 +1,9 @@
+[
+  {
+    "NumberOfCells": 2,
+    "NumberOfIterations": 4,
+    "MaxValue": 10,
+    "MinValue": 0,
+    "ColumnDimensions": 2500
+  }
+]
